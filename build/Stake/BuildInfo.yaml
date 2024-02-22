@@ -1,0 +1,28 @@
+---
+compiled_package_info:
+  package_name: Stake
+  address_alias_instantiation:
+    bootcamp: "0000000000000000000000000000000000000000000000000000000000000000"
+    default_admin: 27026d1a84ca1e30f9999449fb416abc4f7a9c77f93fcffcfd4626c67e74c4a1
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000000000000000000000000000002"
+  source_digest: D30FF7AF59087A49EF2D8E32B91B915B4A4744892DE111FE913CC8FDAD882E93
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    install_dir: ~
+    force_recompilation: false
+    lock_file: "./Move.lock"
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    default_flavor: sui
+    default_edition: ~
+    deps_as_root: false
+    silence_warnings: false
+    warnings_are_errors: false
+    additional_named_addresses: {}
+    no_lint: false
+dependencies:
+  - MoveStdlib
+  - Sui
